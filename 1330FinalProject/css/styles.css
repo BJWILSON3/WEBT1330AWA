@@ -1,67 +1,57 @@
 /* Styles for Mobile Phone */
 
-body {
-    background-color: #010D00;
-    color:white;
-}
 
-.navbar {
-    background-color: #010D00;
+body {
+    background-color: white;
+    color:#B77512;
+    font-family: kalam;
 }
 
 #header_img { 
-    background-image: url(../images/Bermudaparrot.jpeg);
-    background-size: cover;
+    background-image: url(../Images/BREADMISC/ToppingsourDough.jpeg);
+    background-size:100%;
     background-position: center;
+
 }
 
-#Reef_img { 
-    background-image: url(../images/Coralreef.jpeg);
-    background-size: cover;
-    background-position: center;
+#button {
+    top: 40px;
+      left: 400px;
+      position:relative;
+      color:white;
+      font-size: 35pt;
+  }
+
+#start{
+    text-align: center;
 }
 
-#Lighthouse_img { 
-    background-image: url(../images/gibbsLHmain.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-#Beach_img { 
-    background-image: url(../images/Bermudasunglasses.jpeg);
-    background-size: cover;
-    background-position: center;
+#start1{
+    text-align: center;
+    font-size: 15pt;
 }
 
 #header { 
     width: 50%;
 }
 
-#button {
-    padding-top: -100%;
-    padding-left: 15px;
-    padding-bottom: -150px;
-}
+.col-lg-4{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
 
-#Horseshoe { 
-    background-image: url(../images/HorseshoeBayBeach.jpeg);
-    background-size: cover;
+
+#Footer_img { 
+    background-image: url(..//Images/Beginnerssourdough/footersourdough.jpeg);
+    background-size:100%;
     background-position: center;
+    transform: rotate(180deg);
 }
 
-#Warwick{ 
-    background-image: url(../images/Warwick.jpeg);
-    background-size: cover;
-    background-position: center;
-}
+/* Styles for tablet */
 
-#Elbow { 
-    background-image: url(../images/Elbow.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
     #panel_bg {
         width: 75%;
     }
