@@ -5,7 +5,7 @@ body {
 }
 
 #button {
-    top: 45px;
+    top: 40px;
       left: 300px;
       position: relative;
       color:white;
@@ -122,7 +122,7 @@ footer {
 @media(min-width: 768px) {
 
     #button {
-        top: 70px;
+        top: 40px;
           left:650px;
           position: relative;
           color:white;
@@ -183,11 +183,11 @@ footer {
 @media (min-width: 1024px) {
 
     #button {
-        top: 70px;
-          left: 900px;
+        top: 100px;
+          left: 1150px;
           position: relative;
           color:white;
-          font-size: 50pt;
+          font-size: 70pt;
       }
     
     nav {
