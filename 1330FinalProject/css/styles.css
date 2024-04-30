@@ -122,8 +122,8 @@ footer {
 @media(min-width: 768px) {
 
     #button {
-        top: 45px;
-          left: 550px;
+        top: 70px;
+          left:650px;
           position: relative;
           color:white;
           font-size: 40pt;
@@ -184,7 +184,7 @@ footer {
 
     #button {
         top: 70px;
-          left: 1200px;
+          left: 900px;
           position: relative;
           color:white;
           font-size: 50pt;
