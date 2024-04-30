@@ -5,9 +5,9 @@ body {
 }
 
 #button {
-    top: 40px;
-      left: 250px;
-      position:relative;
+    top: 45px;
+      left: 300px;
+      position: relative;
       color:white;
       font-size: 20pt;
       font-family:fantasy;
@@ -31,16 +31,6 @@ body {
     list-style-type: none;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top:  20px;
-    width: 70%;
-    border: 10px double  #593202;
-}
-
 hr {
     border: 2pt solid #593202;
     border-radius: 5px;
@@ -60,8 +50,8 @@ nav li a {
     color: #593202;
     border: 8px double #593202;
     text-decoration: none;
-    font-size: 30pt;
-    margin: 10px 10px auto;
+    font-size: 20pt;
+    margin: 10px 100px auto;
     text-align: center;
     font-family: 'Shantell Sans', Semibold;
 }
@@ -81,7 +71,7 @@ ul {
 .heading {
     font-size: 20pt;
     color: #593202;
-    font-family: 'Shantell Sans', Semibold;
+    font-family:fantasy, Semibold;
     text-align: center;
 }
 
@@ -91,15 +81,8 @@ h3,
 h4 {
     text-align: center;
     color:#593202;
-    font-family: 'Shantell Sans', Semibold;
+    font-family: fantasy, Semibold;
     margin: 10px;
-}
-
-p {
-    color:#593202;
-    text-align: center;
-    padding:5px;
-    margin: 5px;
 }
 
 aside h2 {
@@ -115,7 +98,7 @@ aside h2 {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 50px;
 }
 
 footer {
@@ -139,14 +122,21 @@ footer {
 @media(min-width: 768px) {
 
     #button {
-        top: 60px;
-          left: 600px;
-          position:sticky;
+        top: 45px;
+          left: 550px;
+          position: relative;
           color:white;
           font-size: 40pt;
           font-family:fantasy;
       }
 
+      .button:hover {
+        display: inline-block;
+        color: #593202;
+        background-color: #F2CAA7;
+        border-color:#A9ABA8;
+    }
+    
     nav ul {
         text-align: center;
     }
@@ -166,7 +156,7 @@ footer {
     img {
         width: 100%;
     }
-    å
+    
     main {
         display: flex;
     }
@@ -176,11 +166,6 @@ footer {
         margin: 10px;
         border: 10px solid #593202;
         border-radius: 20px;
-        text-align: center;
-    }
-
-    section {
-        width: 100%;
         text-align: center;
     }
 
@@ -198,11 +183,11 @@ footer {
 @media (min-width: 1024px) {
 
     #button {
-        top: 40px;
-          left: 1400px;
-          position:relative;
+        top: 70px;
+          left: 1200px;
+          position: relative;
           color:white;
-          font-size: 35pt;
+          font-size: 50pt;
       }
     
     nav {
