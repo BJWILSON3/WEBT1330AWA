@@ -249,9 +249,11 @@ footer {
             display: flex;
         }
     
-        section, aside {
+        #section{
             border: 10px double #593202;
+            width: 500px;
             text-align: center;
+            color: white;
         }
     
         .col {
