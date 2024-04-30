@@ -180,7 +180,7 @@ footer {
 /* end Tablet */
 
 /* Styles for Desktop */
-@media (min-width: 1024px) {
+
 
     #button {
         top: 100px;
