@@ -1,8 +1,4 @@
 /* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-}
 
 #header_img { 
     background-image: url(../Images/BREADMISC/ToppingsourDough.jpeg);
@@ -16,6 +12,7 @@
 
 #container {
     background-color: #593202;
+    height:0;
     list-style-type: none;
 }
 
@@ -110,7 +107,6 @@ footer {
     color: #593202;
     text-align: center;
     padding: 10px
-    border: 3px solid #593202;
 }
 
 #Footer_img { 
@@ -173,8 +169,8 @@ footer {
 @media (min-width: 1024px) {
 
     #button {
-        top: 100px;
-          left: 1150px;
+          top: 100px;
+          left: 800px;
           position: relative;
           color:white;
           font-size: 70pt;
@@ -194,37 +190,34 @@ footer {
         nav li a {
             display: block;
             height: 50px;
-            line-height: 35px;
+            line-height: 55px;
             background-color: #F2CAA7;
             color: #593202;
             border: 8px double #593202;
             text-decoration: none;
             margin: 10px 20px auto;
-            font-family: 'Shantell Sans', Semibold;
-        }
-    
-        nav hr {
-            color: #F2CAA7;
-            width: 50%
+            font-family: fantasy, Semibold;
+            font-size: 25pt;
         }
 
         .heading {
             font-size: 2em;
-            color: black;
+            color: #593202;
             text-align: center;
-            font-family: 'Shantell Sans', Semibold;
-        }
-    
-        main img {
-            width: 100%;
-            border: 10px double #593202;
-            margin: 10px;
-            padding: 0px;
+            font-family: fantasy, Semibold;
+            font-size: 25pt;
         }
 
-        aside ul {
+        section{
             text-align: center;
-            padding: 5%;
+            margin-top: 100px;
+        }
+
+        footer {
+            background-color: #F2CAA7;
+            margin-top: 500px;
+            color: #593202;
+            padding: 10px;
         }
     }
 /* End for Desktop */
