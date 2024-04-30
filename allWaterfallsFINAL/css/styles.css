@@ -143,6 +143,7 @@ footer {
 /* Desktop styles */
 
 @media (min-width: 1024px) {
+    
     nav li a {
         background-color: #1A2B16;
     }
