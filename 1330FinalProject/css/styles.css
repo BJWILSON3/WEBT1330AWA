@@ -111,6 +111,10 @@ footer {
     padding: 10px
 }
 
+i class {
+    color: black;
+}
+
 #Footer_img { 
     background-image: url(..//Images/Beginnerssourdough/footersourdough.jpeg);
     background-size:100%;
@@ -171,7 +175,7 @@ footer {
 
     #button {
           top: 100px;
-          left: 800px;
+          left: 1100px;
           position: relative;
           color:white;
           font-size: 70pt;
@@ -210,16 +214,16 @@ footer {
         }
 
         section{
-            margin-left: 300px;
-            text-align: center;
             margin-top: 100px;
+            height:100%;
+            width: 100%;
         }
 
         footer {
             background-color: #F2CAA7;
             margin-top: 500px;
             color: #593202;
-            padding: 10px;
         }
+
     }
 /* End for Desktop */
