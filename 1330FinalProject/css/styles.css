@@ -106,6 +106,8 @@ footer {
     background-color: #F2CAA7;
     color: #593202;
     text-align: center;
+    margin-top: 200px;
+    height: 50px;
     padding: 10px
 }
 
@@ -149,7 +151,6 @@ footer {
     section, aside {
         padding:20px;
         margin: 10px;
-        border: 10px solid #593202;
         border-radius: 20px;
         text-align: center;
     }
@@ -189,7 +190,7 @@ footer {
 
         nav li a {
             display: block;
-            height: 50px;
+            height: 60px;
             line-height: 55px;
             background-color: #F2CAA7;
             color: #593202;
@@ -209,6 +210,7 @@ footer {
         }
 
         section{
+            margin-left: 300px;
             text-align: center;
             margin-top: 100px;
         }
